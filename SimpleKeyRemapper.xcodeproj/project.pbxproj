@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A0B52201AEFABAE00E0ADDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B521F1AEFABAE00E0ADDB /* AppDelegate.swift */; };
+		1A0B52221AEFABAE00E0ADDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B52211AEFABAE00E0ADDB /* Images.xcassets */; };
+		1A0B52251AEFABAE00E0ADDB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B52231AEFABAE00E0ADDB /* MainMenu.xib */; };
+		1A744DC11AF80DF500B904A4 /* KeyboardShortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A744DC01AF80DF500B904A4 /* KeyboardShortcut.swift */; };
+		1A744DC71AF8CF1B00B904A4 /* KeyConverterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A744DC61AF8CF1B00B904A4 /* KeyConverterController.swift */; };
+		1A744DC91AF8D84F00B904A4 /* KeyMappingsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A744DC81AF8D84F00B904A4 /* KeyMappingsWindow.xib */; };
+		1A744DCB1AF8D87300B904A4 /* KeyMappingsTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A744DCA1AF8D87300B904A4 /* KeyMappingsTableViewDelegate.swift */; };
+		1A744DCD1AF8D93B00B904A4 /* KeyMappingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A744DCC1AF8D93B00B904A4 /* KeyMappingsController.swift */; };
+		1A744DCF1AF8D95F00B904A4 /* KeyDetectorTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A744DCE1AF8D95F00B904A4 /* KeyDetectorTextField.swift */; };
+		1A744DD31AF8E21E00B904A4 /* KeyMappingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A744DD21AF8E21E00B904A4 /* KeyMappingsSheet.swift */; };
+		1A744DD51AF8FD2F00B904A4 /* KeyMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A744DD41AF8FD2F00B904A4 /* KeyMapping.swift */; };
+		1A744DDD1AFA22C400B904A4 /* KeyConvertor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A744DDC1AFA22C400B904A4 /* KeyConvertor.m */; };
+		1AC983CD1AFAA74E00F2087F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1AC983CC1AFAA74E00F2087F /* LICENSE */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A0B521A1AEFABAE00E0ADDB /* SimpleKeyRemapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleKeyRemapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0B521E1AEFABAE00E0ADDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../SimpleKeyRemapper/Info.plist; sourceTree = "<group>"; };
+		1A0B521F1AEFABAE00E0ADDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../SimpleKeyRemapper/AppDelegate.swift; sourceTree = "<group>"; };
+		1A0B52211AEFABAE00E0ADDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../SimpleKeyRemapper/Images.xcassets; sourceTree = "<group>"; };
+		1A0B52241AEFABAE00E0ADDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1A744DC01AF80DF500B904A4 /* KeyboardShortcut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardShortcut.swift; path = ../SimpleKeyRemapper/KeyboardShortcut.swift; sourceTree = "<group>"; };
+		1A744DC61AF8CF1B00B904A4 /* KeyConverterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyConverterController.swift; path = ../SimpleKeyRemapper/KeyConverterController.swift; sourceTree = "<group>"; };
+		1A744DC81AF8D84F00B904A4 /* KeyMappingsWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KeyMappingsWindow.xib; path = ../SimpleKeyRemapper/KeyMappingsWindow.xib; sourceTree = "<group>"; };
+		1A744DCA1AF8D87300B904A4 /* KeyMappingsTableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyMappingsTableViewDelegate.swift; path = ../SimpleKeyRemapper/KeyMappingsTableViewDelegate.swift; sourceTree = "<group>"; };
+		1A744DCC1AF8D93B00B904A4 /* KeyMappingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyMappingsController.swift; path = ../SimpleKeyRemapper/KeyMappingsController.swift; sourceTree = "<group>"; };
+		1A744DCE1AF8D95F00B904A4 /* KeyDetectorTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyDetectorTextField.swift; path = ../SimpleKeyRemapper/KeyDetectorTextField.swift; sourceTree = "<group>"; };
+		1A744DD21AF8E21E00B904A4 /* KeyMappingsSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyMappingsSheet.swift; path = ../SimpleKeyRemapper/KeyMappingsSheet.swift; sourceTree = "<group>"; };
+		1A744DD41AF8FD2F00B904A4 /* KeyMapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyMapping.swift; path = ../SimpleKeyRemapper/KeyMapping.swift; sourceTree = "<group>"; };
+		1A744DDA1AFA22C400B904A4 /* SimpleKeyRemapper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SimpleKeyRemapper-Bridging-Header.h"; path = "../SimpleKeyRemapper/SimpleKeyRemapper-Bridging-Header.h"; sourceTree = "<group>"; };
+		1A744DDB1AFA22C400B904A4 /* KeyConvertor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyConvertor.h; path = ../SimpleKeyRemapper/KeyConvertor.h; sourceTree = "<group>"; };
+		1A744DDC1AFA22C400B904A4 /* KeyConvertor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyConvertor.m; path = ../SimpleKeyRemapper/KeyConvertor.m; sourceTree = "<group>"; };
+		1AC983CC1AFAA74E00F2087F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A0B52171AEFABAE00E0ADDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0B52111AEFABAE00E0ADDB = {
+			isa = PBXGroup;
+			children = (
+				1A0B521C1AEFABAE00E0ADDB /* SimpleKeyRemapper */,
+				1A0B521B1AEFABAE00E0ADDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A0B521B1AEFABAE00E0ADDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A0B521A1AEFABAE00E0ADDB /* SimpleKeyRemapper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A0B521C1AEFABAE00E0ADDB /* SimpleKeyRemapper */ = {
+			isa = PBXGroup;
+			children = (
+				1A0B521D1AEFABAE00E0ADDB /* Supporting Files */,
+				1A744DDE1AFA307100B904A4 /* Preferences Window */,
+				1A0B521F1AEFABAE00E0ADDB /* AppDelegate.swift */,
+				1A0B52211AEFABAE00E0ADDB /* Images.xcassets */,
+				1A0B52231AEFABAE00E0ADDB /* MainMenu.xib */,
+				1A744DC01AF80DF500B904A4 /* KeyboardShortcut.swift */,
+				1A744DD41AF8FD2F00B904A4 /* KeyMapping.swift */,
+				1A744DC61AF8CF1B00B904A4 /* KeyConverterController.swift */,
+				1A744DDB1AFA22C400B904A4 /* KeyConvertor.h */,
+				1A744DDC1AFA22C400B904A4 /* KeyConvertor.m */,
+				1A744DDA1AFA22C400B904A4 /* SimpleKeyRemapper-Bridging-Header.h */,
+				1AC983CC1AFAA74E00F2087F /* LICENSE */,
+			);
+			path = SimpleKeyRemapper;
+			sourceTree = "<group>";
+		};
+		1A0B521D1AEFABAE00E0ADDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A0B521E1AEFABAE00E0ADDB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A744DDE1AFA307100B904A4 /* Preferences Window */ = {
+			isa = PBXGroup;
+			children = (
+				1A744DC81AF8D84F00B904A4 /* KeyMappingsWindow.xib */,
+				1A744DCA1AF8D87300B904A4 /* KeyMappingsTableViewDelegate.swift */,
+				1A744DCE1AF8D95F00B904A4 /* KeyDetectorTextField.swift */,
+				1A744DCC1AF8D93B00B904A4 /* KeyMappingsController.swift */,
+				1A744DD21AF8E21E00B904A4 /* KeyMappingsSheet.swift */,
+			);
+			name = "Preferences Window";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A0B52191AEFABAE00E0ADDB /* SimpleKeyRemapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0B52341AEFABAE00E0ADDB /* Build configuration list for PBXNativeTarget "SimpleKeyRemapper" */;
+			buildPhases = (
+				1A0B52161AEFABAE00E0ADDB /* Sources */,
+				1A0B52171AEFABAE00E0ADDB /* Frameworks */,
+				1A0B52181AEFABAE00E0ADDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleKeyRemapper;
+			productName = SimpleWebKitBrowser;
+			productReference = 1A0B521A1AEFABAE00E0ADDB /* SimpleKeyRemapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A0B52121AEFABAE00E0ADDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "James Alvarez";
+				TargetAttributes = {
+					1A0B52191AEFABAE00E0ADDB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 1A0B52151AEFABAE00E0ADDB /* Build configuration list for PBXProject "SimpleKeyRemapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A0B52111AEFABAE00E0ADDB;
+			productRefGroup = 1A0B521B1AEFABAE00E0ADDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A0B52191AEFABAE00E0ADDB /* SimpleKeyRemapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A0B52181AEFABAE00E0ADDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0B52221AEFABAE00E0ADDB /* Images.xcassets in Resources */,
+				1A744DC91AF8D84F00B904A4 /* KeyMappingsWindow.xib in Resources */,
+				1AC983CD1AFAA74E00F2087F /* LICENSE in Resources */,
+				1A0B52251AEFABAE00E0ADDB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A0B52161AEFABAE00E0ADDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A744DD51AF8FD2F00B904A4 /* KeyMapping.swift in Sources */,
+				1A0B52201AEFABAE00E0ADDB /* AppDelegate.swift in Sources */,
+				1A744DDD1AFA22C400B904A4 /* KeyConvertor.m in Sources */,
+				1A744DCD1AF8D93B00B904A4 /* KeyMappingsController.swift in Sources */,
+				1A744DCF1AF8D95F00B904A4 /* KeyDetectorTextField.swift in Sources */,
+				1A744DC71AF8CF1B00B904A4 /* KeyConverterController.swift in Sources */,
+				1A744DCB1AF8D87300B904A4 /* KeyMappingsTableViewDelegate.swift in Sources */,
+				1A744DC11AF80DF500B904A4 /* KeyboardShortcut.swift in Sources */,
+				1A744DD31AF8E21E00B904A4 /* KeyMappingsSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A0B52231AEFABAE00E0ADDB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A0B52241AEFABAE00E0ADDB /* Base */,
+			);
+			name = MainMenu.xib;
+			path = ../SimpleKeyRemapper;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A0B52321AEFABAE00E0ADDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A0B52331AEFABAE00E0ADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1A0B52351AEFABAE00E0ADDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/james/Downloads/cef_binary_3.2378.1268.g4715a16_macosx64/cef_binary_3.2378.1268.g4715a16_macosx64/Release,
+				);
+				INFOPLIST_FILE = SimpleKeyRemapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleKeyRemapper/SimpleKeyRemapper-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A0B52361AEFABAE00E0ADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/james/Downloads/cef_binary_3.2378.1268.g4715a16_macosx64/cef_binary_3.2378.1268.g4715a16_macosx64/Release,
+				);
+				INFOPLIST_FILE = SimpleKeyRemapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleKeyRemapper/SimpleKeyRemapper-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A0B52151AEFABAE00E0ADDB /* Build configuration list for PBXProject "SimpleKeyRemapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0B52321AEFABAE00E0ADDB /* Debug */,
+				1A0B52331AEFABAE00E0ADDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0B52341AEFABAE00E0ADDB /* Build configuration list for PBXNativeTarget "SimpleKeyRemapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0B52351AEFABAE00E0ADDB /* Debug */,
+				1A0B52361AEFABAE00E0ADDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A0B52121AEFABAE00E0ADDB /* Project object */;
+}
