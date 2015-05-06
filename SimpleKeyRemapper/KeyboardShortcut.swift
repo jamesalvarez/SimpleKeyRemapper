@@ -91,7 +91,9 @@ func ==(lhs: KeyboardShortcut, rhs: KeyboardShortcut) -> Bool {
     return (lhs.hashValue == rhs.hashValue)
 }
 
-//MARK: Disaplying
+//MARK: Displaying
+
+// Some code by Bill Stevenson translated from: http://ritter.ist.psu.edu/projects/RUI/macosx/rui.c
 
 func KeyStringFromKeyCode(keyCode : CGKeyCode, flags : CGEventFlags) -> String
 {
