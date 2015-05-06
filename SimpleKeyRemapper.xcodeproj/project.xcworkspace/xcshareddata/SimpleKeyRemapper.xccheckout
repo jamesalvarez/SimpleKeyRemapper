@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BDA584BC-41D6-4BCD-A3CE-E126EF7871DF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SimpleKeyRemapper</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AA4B0E4C2675C68E10919A5CC044AF0522D19A6D</key>
+		<string>https://github.com/jamesalvarez/SimpleKeyRemapper.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SimpleKeyRemapper.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AA4B0E4C2675C68E10919A5CC044AF0522D19A6D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jamesalvarez/SimpleKeyRemapper.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AA4B0E4C2675C68E10919A5CC044AF0522D19A6D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AA4B0E4C2675C68E10919A5CC044AF0522D19A6D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SimpleKeyRemapper</string>
+		</dict>
+	</array>
+</dict>
+</plist>

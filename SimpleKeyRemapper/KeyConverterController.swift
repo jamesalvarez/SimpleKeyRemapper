@@ -40,10 +40,15 @@ class KeyConverterController: NSObject {
     override init() {
         currentKeyMappings = []
         keyConvertor = KeyConvertor()
-        keyConvertor.setupInputDeviceListener()
         super.init()
+        if (!keyConvertor.setupInputDeviceListener()) {
+            var alert = NSAlert()
+            alert.messageText = "You have to go to: System Preferences -> Security & Privacy -> Accessibility(Left panel) -> Privacy (Tab) and then add the app before it will work."
+            alert.runModal()
+            NSApplication.sharedApplication().terminate(self)
+        }
     }
-    
+
     override func awakeFromNib() {
         loadKeyMappings()
         switchMappingKeysModeOn()
