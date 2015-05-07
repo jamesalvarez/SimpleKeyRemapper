@@ -103,6 +103,8 @@
 }
 
 
+
+
 CGEventRef myCGEventCallback(CGEventTapProxy proxy, CGEventType type, CGEventRef event, void *refcon)
 {
     // Paranoid sanity check.
@@ -113,5 +115,7 @@ CGEventRef myCGEventCallback(CGEventTapProxy proxy, CGEventType type, CGEventRef
     KeyConvertor *kc = (__bridge KeyConvertor*)refcon;
     return [kc copyOrModifyKeyboardEvent: event];
 }
+
+
 
 @end

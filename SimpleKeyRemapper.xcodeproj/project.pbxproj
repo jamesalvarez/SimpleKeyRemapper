@@ -20,6 +20,7 @@
 		1A744DD51AF8FD2F00B904A4 /* KeyMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A744DD41AF8FD2F00B904A4 /* KeyMapping.swift */; };
 		1A744DDD1AFA22C400B904A4 /* KeyConvertor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A744DDC1AFA22C400B904A4 /* KeyConvertor.m */; };
 		1AC983CD1AFAA74E00F2087F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1AC983CC1AFAA74E00F2087F /* LICENSE */; };
+		1AF23FA81AFB9C9F00CD776C /* KeyNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF23FA71AFB9C9F00CD776C /* KeyNames.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		1A744DDB1AFA22C400B904A4 /* KeyConvertor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyConvertor.h; path = ../SimpleKeyRemapper/KeyConvertor.h; sourceTree = "<group>"; };
 		1A744DDC1AFA22C400B904A4 /* KeyConvertor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyConvertor.m; path = ../SimpleKeyRemapper/KeyConvertor.m; sourceTree = "<group>"; };
 		1AC983CC1AFAA74E00F2087F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1AF23FA61AFB9C9F00CD776C /* KeyNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyNames.h; sourceTree = "<group>"; };
+		1AF23FA71AFB9C9F00CD776C /* KeyNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyNames.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				1A744DDC1AFA22C400B904A4 /* KeyConvertor.m */,
 				1A744DDA1AFA22C400B904A4 /* SimpleKeyRemapper-Bridging-Header.h */,
 				1AC983CC1AFAA74E00F2087F /* LICENSE */,
+				1AF23FA61AFB9C9F00CD776C /* KeyNames.h */,
+				1AF23FA71AFB9C9F00CD776C /* KeyNames.m */,
 			);
 			path = SimpleKeyRemapper;
 			sourceTree = "<group>";
@@ -183,6 +188,7 @@
 				1A0B52201AEFABAE00E0ADDB /* AppDelegate.swift in Sources */,
 				1A744DDD1AFA22C400B904A4 /* KeyConvertor.m in Sources */,
 				1A744DCD1AF8D93B00B904A4 /* KeyMappingsController.swift in Sources */,
+				1AF23FA81AFB9C9F00CD776C /* KeyNames.m in Sources */,
 				1A744DCF1AF8D95F00B904A4 /* KeyDetectorTextField.swift in Sources */,
 				1A744DC71AF8CF1B00B904A4 /* KeyConverterController.swift in Sources */,
 				1A744DCB1AF8D87300B904A4 /* KeyMappingsTableViewDelegate.swift in Sources */,

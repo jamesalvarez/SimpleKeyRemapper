@@ -37,6 +37,8 @@ typedef void (^MonitorKeyBlock)(CGEventFlags,CGKeyCode);
 - (BOOL)setupInputDeviceListener;
 - (CGEventRef)copyOrModifyKeyboardEvent:(CGEventRef)event;
 
-// methods
+
+// C methods
 CGEventRef eventTapFunction(CGEventTapProxy proxy, CGEventType type, CGEventRef event, void *refcon);
+CFStringRef createStringForKey(CGKeyCode keyCode);
 @end
